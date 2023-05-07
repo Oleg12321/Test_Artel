@@ -1,0 +1,78 @@
+/* Верстка та Загальне */
+
+/* Вмістити три блоки 20X20px в ряд,
+блок шириною 60px,
+при цьому у блоків повинні бути межі. Реалізуйте всі варіанти,
+які знаєте. */
+
+/* 1 */
+
+/* .block0 {
+  display: flex;
+  flex-direction: column;
+}
+
+.constainer {
+  display: flex;
+}
+
+.block1,
+.block2,
+.block3,
+.block4 {
+  width: 18px;
+  height: 18px;
+  border: 2px solid black;
+} */
+
+/* 2 */
+
+/* .block0 {
+  display: grid;
+  grid-template-columns: 20px 20px 20px;
+  grid-template-rows: 20px 20px;
+}
+
+.block1, .block2, .block3, .block4 {
+  border: 2px solid black;
+} */
+
+/* 3 */
+
+.block0 {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.block1,
+.block2,
+.block3,
+.block4 {
+  width: 18px;
+  height: 18px;
+  border: 2px solid black;
+}
+
+.block1 {
+  position: absolute;
+}
+
+.block2 {
+  position: absolute;
+  left: 20px;
+}
+
+.block3 {
+  position: absolute;
+  left: 40px;
+}
+
+.block4 {
+  position: absolute;
+  top: 20px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
